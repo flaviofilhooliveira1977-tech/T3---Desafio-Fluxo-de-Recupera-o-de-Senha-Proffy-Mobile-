@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    tools:context=".ui.finallyComponent.FinallyActivity">
+
+    <ImageView
+        android:id="@+id/image_background"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="24dp"
+        android:contentDescription="@string/cd_header_bg"
+        android:src="@drawable/background_2"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAction"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewDone"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/done"
+        app:layout_constraintBottom_toTopOf="@+id/textViewTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:text="@string/forgot_done_title"
+        android:textColor="@color/shape_01_white"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewSubtitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewDone" />
+
+    <TextView
+        android:id="@+id/textViewSubtitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="@string/forgot_done_subtitle"
+        android:textColor="#D4C2FF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAction"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
+
+    <Button
+        android:id="@+id/buttonAction"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/green"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/forgot_done_button"
+        android:textAllCaps="false"
+        android:textColor="@color/shape_01_white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

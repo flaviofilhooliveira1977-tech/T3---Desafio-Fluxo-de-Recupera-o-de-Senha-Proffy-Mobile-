@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Proffy</string>
+
+    <!-- Fluxo Esqueci Minha Senha -->
+    <string name="forgot_title">Esqueceu sua senha?</string>
+    <string name="forgot_subtitle">Não esquenta,\nvamos dar um jeito nisso.</string>
+    <string name="hint_email">E-mail</string>
+    <string name="btn_enter">Entrar</string>
+    <string name="btn_send">Enviar</string>
+    <string name="error_invalid_email">Digite um e-mail válido</string>
+    <string name="error_empty_email">O campo de e-mail é obrigatório</string>
+    <string name="cd_go_back">Botão para voltar à tela de login</string>
+    <string name="cd_header_bg">Imagem de fundo</string>
+    <string name="cd_proffy_logo">Nome Proffy e sua plataforma de estudos online</string>
+
+    <string name="forgot_done_title">Redefinição\nenviada!</string>
+    <string name="forgot_done_subtitle">Boa, agora é só checar o e-mail que foi\nenviado para você redefinir sua senha\ne aproveitar os estudos.</string>
+    <string name="forgot_done_button">Voltar ao login</string>
+
+     <string name="register_done_title">Cadastro\nconcluído!</string>
+    <string name="register_done_subtitle">Agora você faz parte da plataforma da\nProffy. Tenha uma ótima experiência.</string>
+    <string name="register_done_button">Fazer login</string>
+</resources>
